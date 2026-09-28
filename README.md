@@ -2,7 +2,7 @@
 
 Recipe Finder is a single-page React app for discovering meals. Search by dish name or by an ingredient you already have, browse results in a responsive card grid, read full ingredients and instructions, and save favorites that persist between visits. Recipe data comes from the free [TheMealDB](https://www.themealdb.com/api.php) API.
 
-**Live demo:** _add your Vercel / Netlify / GitHub Pages link here_
+
 
 ## Features
 
@@ -52,15 +52,13 @@ To create a production build: `npm run build`.
 
 ## Screenshots
 
-| Search | Recipe detail | Favorites |
-| --- | --- | --- |
-| ![Search](docs/search.png) | ![Detail](docs/detail.png) | ![Favorites](docs/favorites.png) |
+<img width="998" height="474" alt="image" src="https://github.com/user-attachments/assets/88bdde62-a20b-47d0-8dd1-d7927170d7d4" />
 
-_Add your own screenshots to the `docs/` folder using these file names._
+
 
 ## Known limitations
 
 - Ingredient search supports one ingredient at a time (TheMealDB free tier).
 - Results are not paginated; the API returns them all at once.
 - Category filter and text search are separate: choosing a category replaces the current search.
-"# recipe-finder" 
+
